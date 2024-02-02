@@ -1,0 +1,33 @@
+{
+  "name": "hackernews-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "framer-motion": "^4.1.2",
+    "next": "10.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "swr": "^0.5.4",
+    "timeago.js": "^4.0.2",
+    "use-onclickoutside": "^0.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^2.2.19"
+  },
+  "description": "> A minimal looking hackernews client built with Next.js and TailwindCSS. <br/> > This is v2 of the [**original redesign**](https://github.com/RocktimSaikia/hacker-news-redesign/tree/master) that I did 2 years ago.",
+  "main": "postcss.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
